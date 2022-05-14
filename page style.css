@@ -5,14 +5,22 @@ html{
 
 h1{font-weight: bolder;}
 h2{font-weight: bold;}
-p,li {color: rgb(13, 47, 150)}
+p,li {color: rgb(7, 35, 121)}
 
 #dog1 {width: 900px;}
 #cat1 {width: 900px;}
 
-.remark {color:grey;
+.remark {color:rgb(101, 100, 100);
         font-size: smaller;}
 a:hover{font-style: italic;
-color:rgb(237, 32, 94);}
+color:rgb(251, 44, 106);}
 
 img {width:500px;}
+
+body {
+ width: 1000px;
+ margin: 0 auto; /* 0 сверху, auto снизу и справа */
+ background-color: aquamarine;
+ padding: 0 20px 20px 20px; /*в порядке сверху, справа, снизу, слева */
+ border: 5px solid rgba(0, 0, 0, 0.256);
+}
