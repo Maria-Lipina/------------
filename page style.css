@@ -21,6 +21,6 @@ body {
  width: 1000px;
  margin: 0 auto; /* 0 сверху, auto снизу и справа */
  background-color: aquamarine;
- padding: 0 20px 20px 20px; /*в порядке сверху, справа, снизу, слева */
- border: 5px solid rgba(0, 0, 0, 0.256);
+ padding: 0px 20px 20px 20px; /*в порядке сверху, справа, снизу, слева */
+ border: 2.5mm ridge rgba(197, 26, 26, 0.855);
 }
