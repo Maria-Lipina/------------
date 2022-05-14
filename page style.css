@@ -3,7 +3,6 @@ html{
     background-color: rgba(241, 221, 108, 0.685);
 }
 
-h1{font-weight: bolder;}
 h2{font-weight: bold;}
 p,li {color: rgb(7, 35, 121)}
 
@@ -24,3 +23,12 @@ body {
  padding: 0px 20px 20px 20px; /*в порядке сверху, справа, снизу, слева */
  border: 2.5mm ridge rgba(197, 26, 26, 0.855);
 }
+
+h1{
+    font-weight: bolder;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: -1px -1px 3px rgba(197, 26, 26, 0.855);
+}
+
+img {width:500px;}
