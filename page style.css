@@ -31,4 +31,8 @@ h1{
     text-shadow: -1px -1px 3px rgba(197, 26, 26, 0.855);
 }
 
-img {width:500px;}
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    }
