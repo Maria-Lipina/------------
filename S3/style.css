@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.top {
+/* background-color: #020A18;*/
+margin-bottom: 99px;
+}
+
+.top__header {
+    padding-top: 39px;
+    padding-bottom: 39px;
+}
+
+/*.top__header__link {
+}*/
+
+.top__cont {
+    margin-top: 160px;
+}
+
+.subtitle {
+    margin-bottom: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.text {
+    margin-bottom: 50px;
+}
+
+.top__cont__text__buttons {
+
+}
+
+.top__cont__img {
+    margin-bottom: 197px;
+}
