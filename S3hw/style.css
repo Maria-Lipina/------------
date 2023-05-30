@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+   background-color: #FFFFFF;
+}
+
+.home__header {
+    padding-top: 26px;
+    padding-bottom: 48px;
+}
+
+.home__content {
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+
+.home__content__text {
+    margin-top: 15px;
+    margin-bottom: 27px;
+}
+
+.home__content__text__buttons {
+    margin-top: 37px;
+    margin-bottom: 61px;
+}
+.button {
+    padding-top: 15px;
+    padding-bottom: 16px;
+}
+
+/* .home__content__photo {
+} */
+
+.home__logos {
+    padding-top: 97px;
+    padding-bottom: 96px;
+}
