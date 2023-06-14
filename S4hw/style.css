@@ -1,0 +1,49 @@
+* {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+/* .header {
+font-family: Gilroy-SemiBold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+
+font-family: Gilroy-Medium;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+} */
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+}
+.flex {
+    
+}
+
+.header {
+    /*отступы по вертикали, отделить логическую часть*/
+}
+.head__nav {
+
+}
+.nav__link {
+
+}
+
+.promo {
+/*отступы по вертикали, отделить логическую часть*/
+}
+#home_photo {
+
+}
+
+.footer {
+/*отступы по вертикали, отделить логическую часть*/
+}
+.fool_logos{
+
+}
