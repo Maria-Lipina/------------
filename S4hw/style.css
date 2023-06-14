@@ -1,49 +1,85 @@
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Gilroy', sans-serif;
 }
-/* .header {
-font-family: Gilroy-SemiBold;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
 
-font-family: Gilroy-Medium;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-} */
 .container {
-    max-width: 1920px;
+    max-width: 1170px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
-.flex {
-    
-}
-
 .header {
-    /*отступы по вертикали, отделить логическую часть*/
+    padding-top: 40px;
+    padding-bottom: 84px;
 }
-.head__nav {
 
+.head__nav {
+    width: 533px;
+    display: flex;
+    justify-content: space-between;
 }
 .nav__link {
-
+    padding-top: 11px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;   
+}
+#home_page_link {
+    color: #F25822;
+}
+.nav__link:hover {
+    background-color: rgba(247, 157, 124, 0.853);
 }
 
 .promo {
-/*отступы по вертикали, отделить логическую часть*/
+    
 }
-#home_photo {
+.promo__text {
+
+}
+
+.promo__text__title {
+    font-size: 60px;
+    font-weight: 700;
+}
+.promo__text__paragraph {
+    font-size: 20px;
+    color: #888;
+}
+.promo__text__buttons {
+    margin-top: 37px;
+    margin-bottom: 61px;
+    display: flex;
+    justify-content: space-between;
+}
+#start_button {
+    width: 140px;
+    height: 50px;
+    background-color: #F25822;
+    border-radius: 50px;
+    border: 0;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+#watch_button {
+    color: #AAA;
+}
+.promo_photo {
 
 }
 
 .footer {
-/*отступы по вертикали, отделить логическую часть*/
+    padding-top: 97px;
+    padding-bottom: 96px;
 }
-.fool_logos{
+
+.foot_logos {
 
 }
