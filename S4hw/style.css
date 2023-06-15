@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    /* font-family: 'Open Sans', sans-serif; */
     font-family: 'Gilroy', sans-serif;
 }
 
@@ -13,6 +12,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .header {
     padding-top: 40px;
     padding-bottom: 84px;
@@ -23,6 +23,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .nav__link {
     padding-top: 11px;
     padding-bottom: 12px;
@@ -30,34 +31,38 @@
     font-weight: 600;
     color: black;   
 }
+
 #home_page_link {
     color: #F25822;
 }
+
 .nav__link:hover {
     background-color: rgba(247, 157, 124, 0.853);
 }
 
-.promo {
-    
-}
 .promo__text {
-
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 
 .promo__text__title {
     font-size: 60px;
     font-weight: 700;
 }
+
 .promo__text__paragraph {
     font-size: 20px;
     color: #888;
 }
+
 .promo__text__buttons {
     margin-top: 37px;
     margin-bottom: 61px;
     display: flex;
     justify-content: space-between;
 }
+
 #start_button {
     width: 140px;
     height: 50px;
@@ -67,19 +72,26 @@
     color: #FFF;
     font-size: 15px;
     font-weight: 700;
+    margin-right: 36px;
 }
+
 #watch_button {
+    width: 140px;
+    height: 50px;
+    background-color: #f2592200;
+    border-radius: 50px;
+    border: 0;
+    font-size: 15px;
+    font-weight: 700;
     color: #AAA;
 }
-.promo_photo {
 
+#watch_button:hover {
+    background-color: #434ec9;
+    color: #FFF;
 }
 
 .footer {
     padding-top: 97px;
     padding-bottom: 96px;
-}
-
-.foot_logos {
-
 }
